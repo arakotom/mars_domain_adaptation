@@ -3,8 +3,9 @@
 This is a Pytorch implementation of the paper Optimal Transport for Class-Conditional and Target Shift  
 
 ### Requirements
-* python3.6
+* python3.8
 * pytorch 1.3
+* torch
 * torchvision
 * numpy
 * tqdm
@@ -21,7 +22,7 @@ This is a Pytorch implementation of the paper Optimal Transport for Class-Condit
   	approach.
   
 * compare_toy_one_iter.py  compare_toy_setting.py 
-     	allows one to run 1 iteration of those algorithms on the
+     	allows to run one iteration of those algorithms on the
     	toy problem defined in the setting file. It executes
 	one run of DANN, a W_beta=1, and MARSg. 
 	(takes few minutes on a core I7 laptop)
