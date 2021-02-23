@@ -5,7 +5,6 @@ This is a Pytorch implementation of the paper Optimal Transport for Class-Condit
 ### Requirements
 * python3.8
 * pytorch 1.3
-* torch
 * torchvision
 * numpy
 * tqdm
@@ -43,7 +42,7 @@ This is a Pytorch implementation of the paper Optimal Transport for Class-Condit
 	https://figshare.com/articles/visda-train0411_npz/11865915
 
 
-## Some latent features obtained on the VisDA 3-class problem 
+## Some latent features obtained on the VisDA 3-class problem using agglomerative clustering
 ##### after training on the source domain only
 ![BEFORE](images/figuretsne-clus-setting2-before.png) 
 ##### after adaptation 
