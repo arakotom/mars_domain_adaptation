@@ -1,6 +1,7 @@
 ### Optimal Transport for Class-Conditional and Target Shift
 
-This is a Pytorch implementation of the paper Optimal Transport for Class-Conditional and Target Shift  
+This is a Pytorch implementation of the paper Optimal Transport for Class-Conditional and Target Shift  that is available here
+https://arxiv.org/abs/2006.08161
 
 ### Requirements
 * python3.8
